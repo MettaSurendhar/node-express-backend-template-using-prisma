@@ -14,16 +14,16 @@ This template is designed for:
 
 | Section            | Link                                      |
 | ------------------ | ----------------------------------------- |
-| Overview           | [Overview](#overview)                     |
-| Learning Resources | [Learning Resources](#learning-resources) |
-| Repo Structure     | [Repo Structure](#repo-structure)         |
-| Features           | [Features](#features)                     |
-| Usage              | [Usage](#usage)                           |
-| Tips for Beginners | [Tips for Beginners](#tips-for-beginners) |
-| Security Tips      | [Security Tips](#security-tips)           |
+| Overview           | [Overview](#overview-)                     |
+| Learning Resources | [Learning Resources](#learning-resources-) |
+| Repo Structure     | [Repo Structure](#repo-structure-)         |
+| Features           | [Features](#features-)                     |
+| Usage              | [Usage](#usage-%EF%B8%8F)                           |
+| Tips for Beginners | [Tips for Beginners](#tips-for-beginners-) |
+| Security Tips      | [Security Tips](#security-tips-)           |
+| Customize the Template    | [Customize the Template](#customizing-the-template-%EF%B8%8F)       |
 | Contribution       | [Contribution](#contribution)             |
-| License            | [License](#license)                       |
-| Getting Started    | [Getting Started](#getting-started)       |
+| Create a Good ReadMe            | [Creating a good readme](#creating-a-good-readme)                       |
 
 ---
 
@@ -253,20 +253,6 @@ Please check out our [Contributing Guide](contributing.md) for more details.
 ## License
 
 This project is licensed under the MIT License. This means you are free to use, modify, and distribute the software, provided that you include the original copyright and license notice in any copies of the software. For more details, see the [LICENSE](LICENSE) file.
-
----
-
-## Getting Started
-
-Follow these steps to start using this template:
-
-1. Clone the repository to your local machine.
-2. Install the required dependencies using `npm install` or `yarn install`.
-3. Set the configuration the database settings and environment variables in the `config` folder.
-4. Start the application using `npm start` or `yarn start`.
-5. Use the API endpoints defined in the `routes` folder to interact with the application.
-
-For more detailed setup instructions, see the [Setup Guide](setup.md).
 
 ---
 
