@@ -120,13 +120,13 @@ For detailed instructions on how to use this template, including examples, pleas
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/MettaSurendhar/node-express-backend-template-using-prisma.git <project_name>
+      git clone https://github.com/MettaSurendhar/node-express-backend-template-using-prisma.git <project_name>
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd <project_name>
+      cd <project_name>
    ```
 
 3. Install the dependencies:
