@@ -1,0 +1,32 @@
+{
+	"name": "node-express-backend-template-using-prisma",
+	"version": "1.0.0",
+	"description": "HeadStart for developing express backend application with PostgreSQL and Prisma ORM",
+	"main": "index.js",
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development nodemon index.js",
+		"staging": "cross-env NODE_ENV=staging node index.js",
+		"db-pull": "dotenv -e .env.development -- npx prisma db pull ",
+		"db-push": "dotenv -e .env.development -- npx prisma db push ",
+		"db-pull:staging": "dotenv -e .env.staging -- npx prisma db pull ",
+		"db-push:staging": "dotenv -e .env.staging -- npx prisma db push ",
+		"db-studio": "dotenv -e .env.development -- npx prisma studio",
+		"db-studio:staging": "dotenv -e .env.staging -- npx prisma studio"
+	},
+	"author": "Metta Surendhar",
+	"dependencies": {
+		"@prisma/client": "^4.14.1",
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv-flow": "^3.2.0",
+		"express": "^4.18.2",
+		"joi": "^17.9.2",
+		"jsonwebtoken": "^9.0.0",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"dotenv-cli": "^7.2.1",
+		"nodemon": "^2.0.22"
+	}
+}
