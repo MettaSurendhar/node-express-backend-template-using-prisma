@@ -120,7 +120,7 @@ For detailed instructions on how to use this template, including examples, pleas
 1. Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/Velogan-Boy/node-headstart.git <project_name>
+   git clone https://github.com/MettaSurendhar/node-express-backend-template-using-prisma.git <project_name>
    ```
 
 2. Navigate to the project directory:
